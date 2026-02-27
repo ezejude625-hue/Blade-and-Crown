@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,49 +6,49 @@
 
 @layer base {
   :root {
-    --background: 30 10% 6%;
-    --foreground: 40 20% 90%;
+    --background: 210 40% 98%;
+    --foreground: 215 25% 15%;
 
-    --card: 30 8% 10%;
-    --card-foreground: 40 20% 90%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
 
-    --popover: 30 8% 10%;
-    --popover-foreground: 40 20% 90%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
 
-    --primary: 40 80% 55%;
-    --primary-foreground: 30 10% 6%;
+    --primary: 215 90% 50%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 30 8% 15%;
-    --secondary-foreground: 40 20% 85%;
+    --secondary: 210 30% 92%;
+    --secondary-foreground: 215 25% 25%;
 
-    --muted: 30 6% 18%;
-    --muted-foreground: 30 10% 55%;
+    --muted: 210 20% 94%;
+    --muted-foreground: 215 15% 45%;
 
-    --accent: 40 80% 55%;
-    --accent-foreground: 30 10% 6%;
+    --accent: 215 90% 50%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 30 8% 20%;
-    --input: 30 8% 20%;
-    --ring: 40 80% 55%;
+    --border: 210 20% 88%;
+    --input: 210 20% 88%;
+    --ring: 215 90% 50%;
 
     --radius: 0.5rem;
 
-    --gold: 40 80% 55%;
-    --gold-light: 40 70% 70%;
-    --gold-dark: 35 85% 40%;
-    --warm-gray: 30 6% 30%;
+    --gold: 215 90% 50%;
+    --gold-light: 215 80% 65%;
+    --gold-dark: 215 95% 35%;
+    --warm-gray: 210 15% 70%;
 
-    --sidebar-background: 30 10% 6%;
-    --sidebar-foreground: 40 20% 90%;
-    --sidebar-primary: 40 80% 55%;
-    --sidebar-primary-foreground: 30 10% 6%;
-    --sidebar-accent: 30 8% 15%;
-    --sidebar-accent-foreground: 40 20% 90%;
-    --sidebar-border: 30 8% 20%;
-    --sidebar-ring: 40 80% 55%;
+    --sidebar-background: 215 25% 15%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 215 90% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 215 30% 25%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 215 20% 25%;
+    --sidebar-ring: 215 90% 50%;
   }
 }
 
@@ -69,19 +69,19 @@
 @layer utilities {
   .text-gradient-gold {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, hsl(40 80% 55%), hsl(40 70% 70%));
+    background-image: linear-gradient(135deg, hsl(215 90% 50%), hsl(215 80% 65%));
   }
 
   .bg-gradient-gold {
-    background-image: linear-gradient(135deg, hsl(40 80% 55%), hsl(35 85% 40%));
+    background-image: linear-gradient(135deg, hsl(215 90% 50%), hsl(215 95% 35%));
   }
 
   .border-gold {
-    border-color: hsl(40 80% 55% / 0.3);
+    border-color: hsl(215 90% 50% / 0.3);
   }
 
   .shadow-gold {
-    box-shadow: 0 0 30px hsl(40 80% 55% / 0.15);
+    box-shadow: 0 0 30px hsl(215 90% 50% / 0.15);
   }
 
   .bg-noise {
