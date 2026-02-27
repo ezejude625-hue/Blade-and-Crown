@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Scissors } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -17,7 +18,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container mx-auto flex items-center justify-between py-4 px-4">
         <a href="#home" className="flex items-center gap-2">
-          <Scissors className="h-6 w-6 text-primary" />
+          <img src={logo} alt="Blade & Crown logo" className="h-10 w-10 object-contain" />
           <span className="font-display text-xl font-bold text-foreground tracking-wide">
             BLADE & CROWN
           </span>
